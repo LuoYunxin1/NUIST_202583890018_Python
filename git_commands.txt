@@ -1,0 +1,406 @@
+    1  mkdir 2006
+    2  cd 2006
+    3  git init
+    4  cd 2006
+    5  echo "Hello World" >hello1.txt
+    6  ls
+    7  echo "Hello NUIST" >hello2.txt
+    8  echo 'Hello IoT" >hello3.txt
+    9  ls
+   10  ls
+   11  git add hello.txt hello2.txt
+   12  cd 2006
+   13  git status
+   14  echo "Hello IoT">hello3.txt
+   15  ls
+   16  git add hello1.txt hello2.txt
+   17  ls -l
+   18  pwd
+   19  ls
+   20  ls -l
+   21  rmdir 2006
+   22  cd
+   23  cd 2006
+   24  pwd
+   25  touch myfile.txt
+   26  rm myfile.txt
+   27  nano myfile.txt
+   28  cat
+   29  pwd
+   30  mkdir Project-Semester2
+   31  pwd
+   32  cd Project-Semester2
+   33  pwd
+   34  pract1
+   35  mkdir pract1
+   36  cd pract1
+   37  mkdir wit
+   38  cd wit
+   39  mkdir schools
+   40  mkdir administration
+   41  mkdir library
+   42  mkdir adult education
+   43  rmdir adult education
+   44  mkdir adulteducation
+   45  cd schools
+   46  mkdir business engineering science
+   47  cd administration
+   48  cd ..
+   49  cd administration
+   50  mkdir finance registrar director
+   51  cd ..
+   52  cd schools
+   53  cd business
+   54  mkdir accountancy management
+   55  cd ..
+   56  cd engineering
+   57  mkdir et bt tradoo
+   58  cd ..
+   59  cd science
+   60  mkdir cmp cand1
+   61  cd..
+   62  cd ..
+   63  cd ..
+   64  cd administration
+   65  cd registrar
+   66  mkdir exams registration
+   67  cd ..
+   68  cd ..
+   69  cd ..
+   70  cd ..
+   71  ls
+   72  ls
+   73  cd pract1
+   74  cd wit
+   75  ls
+   76  cd schools
+   77  ls
+   78  cd business
+   79  pwd
+   80  cd management
+   81  pwd
+   82  ls -l
+   83  mkdir LAB02
+   84  cd LAB02
+   85  git init
+   86  ls -ail
+   87  pwd
+   88  echo 'hello world' > hello1.txt
+   89  echo 'hello nuist'> hello2.txt
+   90  echo 'hello 6.170' > hello3.txt
+   91  git add hello1.txt hello2.txt
+   92  git commit -a -m "Adding text files to the repository"
+   93  git log
+   94  cd LAB02
+   95  echo 'Hello World! git rocks!' >> hello2.txt
+   96  rm hello3.txt
+   97  git status
+   98  git diff hello2.txt
+   99  git rm hello1.txt
+  100  git diff hello1.txt hello2.txt [path]
+  101  git reset HEAD [hello1.txt]
+  102  git reset HEAD hello1.txt
+  103  git checkout hello1.txt
+  104  git checkout abcde hello3.txt
+  105  git checkout ef40b6b45404c4325cf17d7774c1af7de814ae1a hello3.txt
+  106  git log 
+  107  git checkout ef40b6b45404c4325cf17d7774c1af7de814ae1a hello1.txt
+  108  git revert HEAD~3
+  109  git revert HEAD~1
+  110  git revert HEAD
+  111  git status
+  112  git revert HEAD
+  113  git stash
+  114  git revert HEAD
+  115  git help
+  116  git config --globaluser.name "Your Name"
+  117  git config --global user.name "Your Name"
+  118  git config --global alias.co checkout
+  119  git help config
+  120  git config --global --list
+  121  mkdir 2222
+  122  cd LAB02
+  123  echo 'Hello World' > hello1.txt
+  124  echo 'Hello Nuist' > hello2.txt
+  125  ls -ail
+  126  rmdir 2222
+  127  git branch
+  128  git branch assignment2
+  129  git checkout assignment2
+  130  git branch
+  131  touch Test2.txt
+  132  ls -l
+  133  git status
+  134  git add hello1.txt hello2.txt
+  135  git add Test2.txt
+  136  git commit -m “Test2.txt added to repository”
+  137  git commit -m 'Test2.txt added to repository'
+  138  git status
+  139  git checkout master
+  140  git merge assignment2
+  141  ls -l
+  142  git --version
+  143  cd ..
+  144  cd Project-Semester2
+  145  mkdir LAB04
+  146  cd LAB04
+  147  ls -ail
+  148  git clone https://github.com/LuoYunxin1/NUIST_ProjectSem2_2026.git
+  149  git clone https://github.com/LuoYunxin1/NUIST_ProjectSem2_2026.git
+  150  git clone https://github.com/LuoYunxin1/NUIST_ProjectSem2_2026.git
+  151  git clone https://github.com/LuoYunxin1/NUIST_ProjectSem2_2026.git
+  152  git clone https://github.com/LuoYunxin1/NUIST_ProjectSem2_2026.git
+  153  cd ..
+  154  cd ..
+  155  cd LAB02
+  156  ls-ail
+  157  ls -ail
+  158  git remote add origin https://github.com/LuoYunxin1/local_To_GitHub_2026.git
+  159  git branch -M main
+  160  git push -u origin main
+  161  git push -u origin main
+  162  git push -u origin main
+  163  python -V
+  164  python -V
+  165  python
+  166  python --V
+  167  python3 --version
+  168  python -V\
+  169  python -V
+  170  python --version
+  171  python
+  172  python --version
+  173  python
+  174  ls -l | wc -l
+  175  pwd
+  176  cd Project-Semester2
+  177  nano nu.sh
+  178  chmod u+x nu.sh
+  179  touch file1 file2
+  180  ./nu.sh
+  181  ls
+  182  rmdir file1 file2 nu.sh 
+  183  ls
+  184  clear
+  185  ls -l
+  186  ls -ail
+  187  clear
+  188  cd ..
+  189  python
+  190  python
+  191  nano addnumbers.py
+  192  mkdir pathon
+  193  cd pathon
+  194  mnkdir project-semester2
+  195  mkdir project-semester2
+  196  rmdir project-semester2
+  197  rmdir pathon
+  198  mkdir python
+  199  cd python
+  200  mkdir project-semester2
+  201  cd project-semester2
+  202  python
+  203  cd python
+  204  cd project-semester2
+  205  nano addnumbers.py
+  206  python addnumber
+  207  python addnumbers
+  208  python addnumbers.py
+  209  nano addnumbers.py
+  210  git config --global user.name  "Luoyunxin"
+  211  git config --global user.email "202583890018@nuist.edu.cn"
+  212  git init
+  213  git add .
+  214  git commit -m "add two number"
+  215  git remote add origin https://github.com/LuoYunxin1/Lab-0.git
+  216  git push -u origin master
+  217  git push -u origin master
+  218  nano addnumbers1
+  219  nano addnumbers1.py
+  220  python addnumbers1.py
+  221  git add .
+  222  git commit -m "add 1.5 and 6.3"
+  223  git remote add origin https://github.com/LuoYunxin1/Lab-0.git
+  224  git push
+  225  nano For positive numbers
+  226  nano For positive numbers
+  227  cd python
+  228  cd project-semester2
+  229  ls
+  230  ls-l
+  231  nano addnumber.py
+  232  git config --global user.name "Luoyunxin"
+  233  git config --global user.email "202583890018@nuist.edu.cn"
+  234  git add .
+  235  git commit -m "add two number"
+  236  git remote add origin https://github.com/LuoYunxin1/LAB0.git
+  237  git push
+  238  git push
+  239  git push
+  240  git push
+  241  git push
+  242  git push
+  243  git push
+  244  git pull origin master
+  245  cd python
+  246  cd project-semester2
+  247  git commit
+  248  cd python
+  249  cd project-semester2
+  250  git merge --abort
+  251  ls -l
+  252  nano  Add Two Numbers With User Input.py
+  253  cd Add
+  254  nano addnumbers.py
+  255  nano squareroot.py
+  256  nano area.py
+  257  git remote remove origin
+  258  git remote add origin https://github.com/LuoYunxin1/LAB0.git
+  259  git push -u origin master
+  260  git push
+  261  git add .
+  262  git push
+  263  ls
+  264  git add .
+  265  git commit -m"new commit"
+  266  git push
+  267  git log --online
+  268  git log --oneline
+  269  git log
+  270  cd..
+  271  cd ..
+  272  cd ..
+  273  clear
+  274  cd ..
+  275  cd ..
+  276  cd ..
+  277  mkdir PROJECT_SEM2_2026
+  278  cd PROJECT_SEM2_2026
+  279  mkdir Python
+  280  cd Python
+  281  git init
+  282  git config user.name"Luoyunxin"
+  283  git config user.email"202583890018@nuist.edu.cn"
+  284  nano Ex1.py
+  285  nano Ex2.py
+  286  nano Ex1.py
+  287  nano Ex3.py
+  288  nano Ex4.py
+  289  nano Ex5.py
+  290  nano Ex6.py
+  291  git add .
+  292  git commit -m "Add all Python exercises"
+  293  nano Ex1.py
+  294  nano Ex2.py
+  295  nano Ex3.py
+  296  nano Ex4.py
+  297  nano Ex5.py
+  298  nano Ex6.py
+  299  cdcd ~
+  300  # 逐层创建（文档未要求一键创建，按手动层级执行更贴合要求）
+  301  mkdir Project-Semester2
+  302  cd Project-Semester2
+  303  mkdir practl
+  304  mkdir schools
+  305  cd schools
+  306  mkdir business engineering science
+  307  cd business
+  308  mkdir accountancy management
+  309  cd ../engineering
+  310  mkdir et
+  311  cd ../science
+  312  mkdir bt tradco
+  313  cd ../../
+  314  mkdir administration
+  315  cd administration
+  316  mkdir finance exams director library "adult education"
+  317  cd exams
+  318  mkdir registration
+  319  # 回到Project-Semester2根目录，验证（截图）
+  320  cd ~/Project-Semester2
+  321  ls -R  
+  322  ls
+  323  tree ~/Project-Semester2
+  324  ls -R ~/Project-Semester2
+  325  nano nu.sh
+  326  hmod u+x nu.sh
+  327  chmod u+x nu.sh
+  328  ./nu.sh 
+  329  touch test1.txt test2.txt
+  330  ./nu.sh 
+  331  ./nu.sh > howmany
+  332  cat howmany
+  333  nano stats.sh
+  334  chmod u+x stats.sh
+  335  ./stats.sh
+  336  nano InputOutput.sh
+  337  chmod u+x InputOutput.sh
+  338  ./InputOutput.sh
+  339   nano nu.sh
+  340  nano stats.sh
+  341  nano InputOutput.sh
+  342  python
+  343  cd PROJECT_SEM2_2026
+  344  cd Python
+  345  cd Add
+  346  git remot remove origin
+  347  git remote remove origin
+  348  git remote add origin https://github.com/LuoYunxin1/LAB1.git
+  349  git push -u origin master
+  350  git push -u origin master
+  351  git log
+  352  clear
+  353  cd ..
+  354  cd ..
+  355  mkdir Git To GitHub_2026
+  356  cd Git To GitHub_2026
+  357  rmdir Git To GitHub_2026
+  358  mkdir GitToGitHub_2026
+  359  cd GitToGitHub_2026
+  360* 
+  361* 
+  362  git clone https://github.com/LuoYunxin1/NUIST_202583890018_Python.git
+  363  git clone https://github.com/LuoYunxin1/NUIST_202583890018_Python.git
+  364* 
+  365  ls -l
+  366  ls -ail
+  367  ls
+  368  clear
+  369  nano AddTwoNums.py
+  370  python AddTwoNums.py
+  371  git add AddTwoNums.py
+  372  git commit -m "Version 1"
+  373  git status
+  374  git log
+  375  git push origin main
+  376  git push origin main
+  377  git pull origin main
+  378  git push origin main
+  379  nano AddTwoNums.py
+  380  python AddTwoNums.py
+  381  git add AddTwoNums.py
+  382  git commit -m "Version 2"
+  383  git status
+  384  git log
+  385  git push origin main
+  386  history
+  387  nano AddTwoNums.py
+  388  python AddTwoNums.py
+  389  git add AddTwoNums.py
+  390  git commit -m "Version 3"
+  391  git status
+  392  git log
+  393  git push origin main
+  394  git add Ex6.py
+  395  git add Ex6.py
+  396  git commit -m "Add Exercise6 from Lab1"
+  397  git push origin main
+  398  git push origin main
+  399  git push origin main
+  400  git push origin main
+  401  mkdir gitCommands.txt
+  402  history > git_commands.txt
+  403  git add git_commands.txt
+  404  history > git_commands.txt
+  405  history > git_commands.txt
+  406  history > git_commands.txt
