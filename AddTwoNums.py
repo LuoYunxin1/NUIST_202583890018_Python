@@ -1,12 +1,19 @@
 # Add Two Number in Pythen 
 #Author :Luoyunxin
-# Using user input 
+# Using a function 
 
-#taking user input 
-a =input("First number:")
-b = input("Sencond number:")
+# function to add two numbers 
+def add (a,b):
+ #converting input to float and adding
+ result = float(a) + float(b)
+ return result
 
-#convering input to float and adding
-res = float(a) + float(b)
+#taking user input
+a = input("Fiest Number:")
+b = input("Second Number:")
+
+#calling function
+res = add (a,b)
+print ("The Answer is:")
 print (res)
 
